@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+*, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(46, 44, 44);
+}
+
+@font-palette-values --Mint {
+  font-family: Rocher;
+  base-palette: 8;
+}
+
+@font-palette-values --Chic {
+  font-family: Rocher;
+  base-palette: 2;
+}
+
+
+.text-part{
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-part h1{
+  font-size: 4em;
+  text-align: center;
+  font-family: 'Pacifico', cursive !important;
+}
+
+.font-c{
+  color: white;
+}
+
+.text-part h3{
+  font-size: 4em;
+  text-align: center;
+  font-family: 'Rocher';
+  font-palette: --Mint;
+}
+
+.flag-container {
+  height: 50vh;;
+  /* background: #ECEFF1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 700px;
+  overflow: hidden;
+}
+
+.cr{
+  position: absolute;
+  bottom: 0px;
+  font-size: 0.7em;
+  font-family: cursive;
+  color: white;
+}
+.cr a {
+  color: orange;
+}
+
+.wrapper {
+  position: relative;
+  width: 360px;
+  height: 180px;
+  transform: rotateY(20deg) skew(5deg);
+  transform-style: preserve-3d;
+  background-image: url("https://flags.fmcdn.net/data/flags/w580/bj.png");
+  background-size: 0;
+  background-position: -200% -200%;
+}
+.wrapper::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 7.5px;
+  height: 360px;
+  background: gold;
+  left: 7px;
+}
+
+.s {
+  position: absolute;
+  transform-style: preserve-3d;
+  left: 14px;
+  width: 15px;
+  height: 100%;
+  transform-origin: 0 0;
+  background-repeat: no-repeat;
+  background-size: 360px 100%;
+  transform: translateZ(0.0001px) rotateY(14.1176470588deg);
+  background-image: inherit;
+}
+
+.s1 {
+  background-position-x: -15px;
+  -webkit-animation: w 1s 0.08s ease-in-out infinite alternate;
+          animation: w 1s 0.08s ease-in-out infinite alternate;
+}
+
+.s2 {
+  background-position-x: -30px;
+  -webkit-animation: w 1s 0.16s ease-in-out infinite alternate;
+          animation: w 1s 0.16s ease-in-out infinite alternate;
+}
+
+.s3 {
+  background-position-x: -45px;
+  -webkit-animation: w 1s 0.24s ease-in-out infinite alternate;
+          animation: w 1s 0.24s ease-in-out infinite alternate;
+}
+
+.s4 {
+  background-position-x: -60px;
+  -webkit-animation: w 1s 0.32s ease-in-out infinite alternate;
+          animation: w 1s 0.32s ease-in-out infinite alternate;
+}
+
+.s5 {
+  background-position-x: -75px;
+  -webkit-animation: w 1s 0.4s ease-in-out infinite alternate;
+          animation: w 1s 0.4s ease-in-out infinite alternate;
+}
+
+.s6 {
+  background-position-x: -90px;
+  -webkit-animation: w 1s 0.48s ease-in-out infinite alternate;
+          animation: w 1s 0.48s ease-in-out infinite alternate;
+}
+
+.s7 {
+  background-position-x: -105px;
+  -webkit-animation: w 1s 0.56s ease-in-out infinite alternate;
+          animation: w 1s 0.56s ease-in-out infinite alternate;
+}
+
+.s8 {
+  background-position-x: -120px;
+  -webkit-animation: w 1s 0.64s ease-in-out infinite alternate;
+          animation: w 1s 0.64s ease-in-out infinite alternate;
+}
+
+.s9 {
+  background-position-x: -135px;
+  -webkit-animation: w 1s 0.72s ease-in-out infinite alternate;
+          animation: w 1s 0.72s ease-in-out infinite alternate;
+}
+
+.s10 {
+  background-position-x: -150px;
+  -webkit-animation: w 1s 0.8s ease-in-out infinite alternate;
+          animation: w 1s 0.8s ease-in-out infinite alternate;
+}
+
+.s11 {
+  background-position-x: -165px;
+  -webkit-animation: w 1s 0.88s ease-in-out infinite alternate;
+          animation: w 1s 0.88s ease-in-out infinite alternate;
+}
+
+.s12 {
+  background-position-x: -180px;
+  -webkit-animation: w 1s 0.96s ease-in-out infinite alternate;
+          animation: w 1s 0.96s ease-in-out infinite alternate;
+}
+
+.s13 {
+  background-position-x: -195px;
+  -webkit-animation: w 1s 1.04s ease-in-out infinite alternate;
+          animation: w 1s 1.04s ease-in-out infinite alternate;
+}
+
+.s14 {
+  background-position-x: -210px;
+  -webkit-animation: w 1s 1.12s ease-in-out infinite alternate;
+          animation: w 1s 1.12s ease-in-out infinite alternate;
+}
+
+.s15 {
+  background-position-x: -225px;
+  -webkit-animation: w 1s 1.2s ease-in-out infinite alternate;
+          animation: w 1s 1.2s ease-in-out infinite alternate;
+}
+
+.s16 {
+  background-position-x: -240px;
+  -webkit-animation: w 1s 1.28s ease-in-out infinite alternate;
+          animation: w 1s 1.28s ease-in-out infinite alternate;
+}
+
+.s17 {
+  background-position-x: -255px;
+  -webkit-animation: w 1s 1.36s ease-in-out infinite alternate;
+          animation: w 1s 1.36s ease-in-out infinite alternate;
+}
+
+.s18 {
+  background-position-x: -270px;
+  -webkit-animation: w 1s 1.44s ease-in-out infinite alternate;
+          animation: w 1s 1.44s ease-in-out infinite alternate;
+}
+
+.s19 {
+  background-position-x: -285px;
+  -webkit-animation: w 1s 1.52s ease-in-out infinite alternate;
+          animation: w 1s 1.52s ease-in-out infinite alternate;
+}
+
+.s20 {
+  background-position-x: -300px;
+  -webkit-animation: w 1s 1.6s ease-in-out infinite alternate;
+          animation: w 1s 1.6s ease-in-out infinite alternate;
+}
+
+.s21 {
+  background-position-x: -315px;
+  -webkit-animation: w 1s 1.68s ease-in-out infinite alternate;
+          animation: w 1s 1.68s ease-in-out infinite alternate;
+}
+
+.s22 {
+  background-position-x: -330px;
+  -webkit-animation: w 1s 1.76s ease-in-out infinite alternate;
+          animation: w 1s 1.76s ease-in-out infinite alternate;
+}
+
+.s23 {
+  background-position-x: -345px;
+  -webkit-animation: w 1s 1.84s ease-in-out infinite alternate;
+          animation: w 1s 1.84s ease-in-out infinite alternate;
+}
+
+.s24 {
+  background-position-x: -360px;
+  -webkit-animation: w 1s 1.92s ease-in-out infinite alternate;
+          animation: w 1s 1.92s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes w {
+  to {
+    transform: translateZ(0.0001px) rotateY(-14.1176470588deg);
+  }
+}
+
+@keyframes w {
+  to {
+    transform: translateZ(0.0001px) rotateY(-14.1176470588deg);
+  }
+}
+
+@media screen and (max-width:600px){
+  .text-part h1{
+    font-size: 2em;
+    text-align: center;
+    font-family: cursive;
+  }
+
+  .text-part h3{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Rocher';
+    font-palette: --Mint;
+  }
+}
